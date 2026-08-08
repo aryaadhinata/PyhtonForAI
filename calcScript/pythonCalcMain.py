@@ -1,5 +1,5 @@
-num1 = int(input("your first number : "))
-num2 = int(input("your second number : "))
+num1 = float(input("your first number : "))
+num2 = float(input("your second number : "))
 operator = input("operator (+, -, /, *) : ")
 
 match operator:
@@ -15,4 +15,4 @@ match operator:
     case '*':
         print(f"result : {num1 * num2}")
     case _:
-        print("did'nt recognize the operator")
+        print("didn't recognize the operator")
